@@ -46,6 +46,7 @@ class EmployeePanelProvider extends PanelProvider
             ->widgets([
                 AccountWidget::class,
                 FilamentInfoWidget::class,
+                \App\Filament\Widgets\ContributorStatsWidget::class,
             ])
             ->middleware([
                 EncryptCookies::class,
