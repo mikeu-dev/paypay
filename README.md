@@ -1,8 +1,6 @@
-# PayPay ERP - Software House Edition
+# PayPay - Software House Edition
 
-**PayPay ERP** is a comprehensive, open-source management system designed specifically for modern software houses. Built with **Laravel 11** and **Filament v3**, it unifies HR, Finance, and Project Management into a single, beautiful interface.
-
-![PayPay ERP Dashboard](/docs/dashboard-preview.png)
+**PayPay** is a comprehensive, open-source management system designed specifically for modern software houses. Built with **Laravel 12** and **Filament v4**, it unifies HR, Finance, and Project Management into a single, beautiful interface.
 
 ## 🚀 Features
 
@@ -40,8 +38,8 @@
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/paypay-erp.git
-    cd paypay-erp
+    git clone https://github.com/mikeu-dev/paypay.git
+    cd paypay
     ```
 
 2.  **Install Dependencies**
