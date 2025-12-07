@@ -32,6 +32,7 @@ class Employee extends Model
         'hire_date',
         'base_salary',
         'team_id',
+        'user_id',
     ];
 
     public function allowances()
