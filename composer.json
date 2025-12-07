@@ -10,9 +10,11 @@
         "filament/filament": "^4.0",
         "filament/spatie-laravel-settings-plugin": "^4.2",
         "guava/calendar": "^2.0",
+        "jessedev/filament-kanban": "^1.0",
         "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
+        "spatie/eloquent-sortable": "*",
         "spatie/laravel-activitylog": "^4.10",
         "spatie/laravel-permission": "^6.23",
         "spatie/laravel-settings": "^3.6"

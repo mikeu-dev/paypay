@@ -23,4 +23,9 @@ class Task extends Model
     {
         return $this->belongsTo(Employee::class);
     }
+
+    public function jobReports()
+    {
+        return $this->hasMany(JobReport::class);
+    }
 }
