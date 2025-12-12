@@ -40,8 +40,8 @@ class TaskForm
                 Forms\Components\Select::make('priority')
                     ->options([
                         'low' => 'Low',
-                        'medium' => 'High',
-                        'high' => 'Urgent',
+                        'medium' => 'Medium',
+                        'high' => 'High',
                     ])
                     ->required()
                     ->default('medium'),
