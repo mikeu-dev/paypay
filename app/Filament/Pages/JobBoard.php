@@ -18,7 +18,8 @@ class JobBoard extends KanbanBoard
 {
     protected static string $model = JobReport::class;
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
-    protected static string | \UnitEnum | null $navigationGroup = 'Work Management';
+    protected static string | \UnitEnum | null $navigationGroup = 'Operations';
+    protected static ?int $navigationSort = 3;
     protected static ?string $title = 'Job Reports';
 
     #[Url]
