@@ -15,6 +15,8 @@ class TeamResource extends Resource
 {
     protected static ?string $model = Team::class;
 
+    protected static bool $isScopedToTenant = false;
+
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-users'; // Assuming icon
     
     protected static string | \UnitEnum | null $navigationGroup = 'Settings';
